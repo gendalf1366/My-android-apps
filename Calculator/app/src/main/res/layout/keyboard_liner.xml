@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="11dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="119dp"
+        android:textSize="50sp"
+        android:text="" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/c"
+            android:text="@string/c"
+            android:layout_weight="1"
+            tools:ignore="ButtonStyle"
+            style="@style/MyStyle1"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/split"
+            android:text="@string/split"
+            android:layout_weight="1"
+            tools:ignore="ButtonStyle"
+            style="@style/MyStyle1"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/multiply"
+            android:layout_weight="1"
+            android:text="@string/multiply"
+            tools:ignore="ButtonStyle"
+            style="@style/MyStyle1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/seven"
+            android:text="@string/seven"
+            android:layout_weight="1"
+            tools:ignore="ButtonStyle"
+            style="@style/MyStyle2"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/eight"
+            android:layout_weight="1"
+            android:text="@string/eight"
+            tools:ignore="ButtonStyle"
+            style="@style/MyStyle2"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/nine"
+            android:layout_weight="1"
+            android:text="@string/nine"
+            tools:ignore="ButtonStyle"
+            style="@style/MyStyle2"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/min"
+            android:layout_weight="1"
+            android:text="@string/min"
+            tools:ignore="ButtonStyle"
+            style="@style/MyStyle2"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/four"
+            android:layout_weight="1"
+            android:text="@string/four"
+            tools:ignore="ButtonStyle"
+            style="@style/MyStyle2"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/five"
+            android:layout_weight="1"
+            android:text="@string/five"
+            tools:ignore="ButtonStyle"
+            style="@style/MyStyle2"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/six"
+            android:layout_weight="1"
+            android:text="@string/six"
+            tools:ignore="ButtonStyle"
+            style="@style/MyStyle2"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/plus"
+            android:layout_weight="1"
+            android:text="@string/plus"
+            tools:ignore="ButtonStyle"
+            style="@style/MyStyle2"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/one"
+            android:layout_weight="1"
+            android:text="@string/one"
+            tools:ignore="ButtonStyle"
+            style="@style/MyStyle2"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/two"
+            android:layout_weight="1"
+            android:text="@string/two"
+            tools:ignore="ButtonStyle"
+            style="@style/MyStyle2"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/three"
+            android:layout_weight="1"
+            android:text="@string/three"
+            tools:ignore="ButtonStyle"
+            style="@style/MyStyle2"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/rav"
+            android:layout_weight="1"
+            android:text="@string/rav"
+            tools:ignore="ButtonStyle"
+            style="@style/MyStyle2"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/setting"
+            android:layout_weight="1"
+            android:text="@string/Setting"
+            tools:ignore="ButtonStyle"
+            style="@style/MyStyle2"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/zero"
+            android:layout_weight="2"
+            android:text="@string/zero"
+            tools:ignore="ButtonStyle"
+            style="@style/MyStyle2"
+            android:layout_width="0dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
