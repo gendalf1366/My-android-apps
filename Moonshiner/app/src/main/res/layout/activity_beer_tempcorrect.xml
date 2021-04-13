@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textStyle="bold" android:textColor="@color/colorPrimary" android:gravity="center" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:text="@string/act_beer_tempcorrect" android:textAllCaps="true" />
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/val_hydrometer" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <EditText android:id="@id/areom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:inputType="numberDecimal" />
+                <ImageButton android:id="@id/clear1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="5.0" style="@style/MoonshineTheme.ClearButtons" />
+            </LinearLayout>
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/temp_0_70" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <EditText android:id="@id/temp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:inputType="numberDecimal" />
+                <ImageButton android:id="@id/clear2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="5.0" style="@style/MoonshineTheme.ClearButtons" />
+            </LinearLayout>
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/calibr_temp_hydro" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <EditText android:id="@id/calibr" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="20" android:layout_weight="1.0" android:inputType="numberDecimal" />
+                <ImageButton android:id="@id/clear3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="5.0" style="@style/MoonshineTheme.ClearButtons" />
+            </LinearLayout>
+            <CheckBox android:id="@id/checkbox" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/conv_to_brix" />
+            <Button android:id="@id/button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/CALCULATE" style="@style/MoonshineTheme.CalculateBtn" />
+            <TextView android:gravity="center" android:id="@id/rez" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/beer_tempcorr_rez" />
+            <TextView android:textSize="40.0sp" android:textStyle="bold" android:textColor="#ff00ff00" android:gravity="center" android:id="@id/rezultat" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="000" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

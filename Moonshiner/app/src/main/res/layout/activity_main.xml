@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/MoonshineTheme.Headers"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0.0dip"
+                android:layout_marginBottom="0.0dip"
+                android:gravity="center"
+                android:paddingLeft="10.0dip"
+                android:paddingTop="10.0dip"
+                android:paddingRight="10.0dip"
+                android:paddingBottom="0.0dip"
+                android:text="@string/calcs"
+                android:textAllCaps="true" />
+
+            <Button
+                android:id="@id/semSugarBraga"
+                style="@style/MoonshineTheme.MasterButtons"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/calc_sugar_braga" />
+
+            <Button
+                android:id="@id/beersuslo"
+                style="@style/MoonshineTheme.MasterButtons"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/calc_suslo" />
+
+            <Button
+                android:id="@id/semDrobniy"
+                style="@style/MoonshineTheme.MasterButtons"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/calc_fract" />
+
+            <Button
+                android:id="@id/semBoiling"
+                style="@style/MoonshineTheme.MasterButtons"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/calc_boiling" />
+
+            <Button
+                android:id="@id/semRazbavka"
+                style="@style/MoonshineTheme.MasterButtons"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/calc_waterdil" />
+
+            <Button
+                android:id="@id/massmixing"
+                style="@style/MoonshineTheme.MasterButtons"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/calc_massmixing" />
+
+            <Button
+                android:id="@id/semNapitok"
+                style="@style/MoonshineTheme.MasterButtons"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/calc_drink" />
+
+            <Button
+                android:id="@id/semSmeshivanie"
+                style="@style/MoonshineTheme.MasterButtons"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/calc_mix" />
+
+            <Button
+                android:id="@id/beerBrix"
+                style="@style/MoonshineTheme.MasterButtons"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/calc_brix_plato" />
+
+            <Button
+                android:id="@id/beerAlco"
+                style="@style/MoonshineTheme.MasterButtons"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/calc_density" />
+
+            <Button
+                android:id="@id/semTempCorrect"
+                style="@style/MoonshineTheme.MasterButtons"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/calc_correct_spirt" />
+
+            <Button
+                android:id="@id/beerTempCorrect"
+                style="@style/MoonshineTheme.MasterButtons"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/calc_correct_density" />
+
+            <Button
+                android:id="@id/beerIbu"
+                style="@style/MoonshineTheme.MasterButtons"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/calc_ibu" />
+
+            <Button
+                android:id="@id/semTempMix"
+                style="@style/MoonshineTheme.MasterButtons"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/calc_temperature_mix" />
+
+            <Button
+                android:id="@id/vinesugar"
+                style="@style/MoonshineTheme.MasterButtons"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/calc_vinesugar" />
+
+            <Button
+                android:id="@id/speedotbor"
+                style="@style/MoonshineTheme.MasterButtons"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/calc_speedotbor" />
+
+
+            <TextView
+                style="@style/MoonshineTheme.Headers"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0.0dip"
+                android:layout_marginBottom="0.0dip"
+                android:gravity="center"
+                android:paddingLeft="10.0dip"
+                android:paddingTop="10.0dip"
+                android:paddingRight="10.0dip"
+                android:paddingBottom="0.0dip"
+                android:text="@string/guides"
+                android:textAllCaps="true" />
+
+            <Button
+                android:id="@id/bookFruitTable"
+                style="@style/MoonshineTheme.BookButtons"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_sugarfruit" />
+
+            <Button
+                android:id="@id/bookHopTable"
+                style="@style/MoonshineTheme.BookButtons"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_hopes" />
+
+            <Button
+                android:id="@id/bookFermentsBrew"
+                style="@style/MoonshineTheme.BookButtons"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_ferments" />
+
+            <Button
+                android:id="@id/bookYeastTable"
+                style="@style/MoonshineTheme.BookButtons"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_yeast" />
+
+            <Button
+                android:id="@id/bookFertman"
+                style="@style/MoonshineTheme.BookButtons"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_fertmantable" />
+
+            <Button
+                android:id="@id/bookFruitwater"
+                style="@style/MoonshineTheme.BookButtons"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/guid_waterfruits" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

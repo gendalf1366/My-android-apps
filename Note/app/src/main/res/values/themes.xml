@@ -1,0 +1,13 @@
+<resources>
+    <!-- Base application theme. -->
+
+    <style name="MyStyle" parent="Theme.MaterialComponents.Light">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="MyStyle.NoActionBar">
+        <item name="android:colorPrimaryDark">@color/black</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

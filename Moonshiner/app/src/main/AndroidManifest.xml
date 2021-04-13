@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:versionCode="31"
+    android:versionName="1.5.11"
+    android:installLocation="auto"
+    android:compileSdkVersion="28"
+    android:compileSdkVersionCodename="9"
+    package="ru.gendalf13666.moonshiner">
+
+    <application android:theme="@style/Theme.AppCompat"
+        android:label="AlcoCalculator" android:icon="@mipmap/ic_launcher"
+        android:allowBackup="true"
+        android:supportsRtl="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        tools:targetApi="p"
+        tools:ignore="AllowBackup">
+        <activity android:name="ru.gendalf13666.moonshiner.sem_Speedotbor" />
+        <activity android:name="ru.gendalf13666.moonshiner.sem_SugarBraga" />
+        <activity android:name="ru.gendalf13666.moonshiner.beer_suslo" />
+        <activity android:name="ru.gendalf13666.moonshiner.sem_boiling" />
+        <activity android:name="ru.gendalf13666.moonshiner.beer_ibu" />
+        <activity android:name="ru.gendalf13666.moonshiner.vine_sugar" />
+        <activity android:name="ru.gendalf13666.moonshiner.book_main" />
+        <activity android:name="ru.gendalf13666.moonshiner.sem_temperature" />
+        <activity android:name="ru.gendalf13666.moonshiner.beer_alcoSuslo" />
+        <activity android:name="ru.gendalf13666.moonshiner.beer_tempcorrect" />
+        <activity android:name="ru.gendalf13666.moonshiner.beer_alco" />
+        <activity android:name="ru.gendalf13666.moonshiner.beer_brix" />
+        <activity android:name="ru.gendalf13666.moonshiner.sem_smeshivanie" />
+        <activity android:name="ru.gendalf13666.moonshiner.sem_Napitok" />
+        <activity android:name="ru.gendalf13666.moonshiner.sem_razbavka" />
+        <activity android:name="ru.gendalf13666.moonshiner.sem_Tempcorrect"/>
+        <activity android:name="ru.gendalf13666.moonshiner.sem_massmixing"/>
+        <activity android:label="AlcoCalculator" android:name="ru.gendalf13666.moonshiner.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="ru.gendalf13666.moonshiner.sem_headbody" />
+        <meta-data android:name="com.android.vending.derived.apk.id" android:value="1" />
+    </application>
+
+</manifest>

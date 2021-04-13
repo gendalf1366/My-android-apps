@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="CALCULATE" translatable="false">РАССЧИТАТЬ</string>
+    <string name="Measure" translatable="false">ИЗМЕРИТЬ</string>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_font_family_body_1_material" translatable="false">sans-serif</string>
+    <string name="abc_font_family_body_2_material" translatable="false">sans-serif-medium</string>
+    <string name="abc_font_family_button_material" translatable="false">sans-serif-medium</string>
+    <string name="abc_font_family_caption_material" translatable="false">sans-serif</string>
+    <string name="abc_font_family_display_1_material" translatable="false">sans-serif</string>
+    <string name="abc_font_family_display_2_material" translatable="false">sans-serif</string>
+    <string name="abc_font_family_display_3_material" translatable="false">sans-serif</string>
+    <string name="abc_font_family_display_4_material" translatable="false">sans-serif-light</string>
+    <string name="abc_font_family_headline_material" translatable="false">sans-serif</string>
+    <string name="abc_font_family_menu_material" translatable="false">sans-serif</string>
+    <string name="abc_font_family_subhead_material" translatable="false">sans-serif</string>
+    <string name="abc_font_family_title_material" translatable="false">sans-serif-medium</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">space</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="act_beer_alco" translatable="false">Калькулятор содержания объемного алкоголя в пиве (вине)</string>
+    <string name="act_beer_brix" translatable="false">Калькулятор конвертации Брикс</string>
+    <string name="act_beer_suslo" translatable="false">РАСЧЕТ СОЛОДА НА СУСЛО</string>
+    <string name="act_beer_tempcorrect" translatable="false">Калькулятор корректировки показаний плотности ареометра от температуры</string>
+    <string name="act_sem_boiling" translatable="false">Зависимость температуры кипения браги от содержания в ней спирта</string>
+    <string name="act_sem_headbody" translatable="false">Калькулятор чистого спирта и отбора голов</string>
+    <string name="act_sem_massconvert" translatable="false">Конвертирование массы в объем</string>
+    <string name="act_sem_massmixing" translatable="false">Разбавление по массе</string>
+    <string name="act_sem_napitok" translatable="false">РАСЧЕТ КОЛИЧЕСТВА ВОДЫ ДЛЯ РАЗБАВЛЕНИЯ СПИРТА ДО НУЖНОГО ОБЪЕМА НАПИТКА</string>
+    <string name="act_sem_razbavka" translatable="false">Калькулятор разбавления спирта водой</string>
+    <string name="act_sem_smeshivanie" translatable="false">Калькулятор смешивания двух спиртосодержащих жидкостей</string>
+    <string name="act_sem_speedotbor" translatable="false">Скорость отбора</string>
+    <string name="act_sem_sugarbraga" translatable="false">Калькулятор расчета сахарной браги</string>
+    <string name="act_sem_teh" translatable="false">Расчет ТЭНа</string>
+    <string name="act_sem_tempcorrect" translatable="false">Коррекция показаний спиртового ареометра в зависимости от температуры</string>
+    <string name="act_sem_temperature" translatable="false">Калькулятор смешивания жидкостей разных температур</string>
+    <string name="act_vine_sugar" translatable="false">Калькулятор расчета добавления сахара в сусло</string>
+    <string name="action_LoadData" translatable="false">Загрузить</string>
+    <string name="action_SaveData" translatable="false">Сохранить</string>
+    <string name="action_auto" translatable="false">Автоматическая тема</string>
+    <string name="action_cancel" translatable="false">Отмена</string>
+    <string name="action_dark" translatable="false">Темная тема</string>
+    <string name="action_delete" translatable="false">Удалить</string>
+    <string name="action_edit" translatable="false">Редактировать</string>
+    <string name="action_export" translatable="false">Экспорт</string>
+    <string name="action_import" translatable="false">Импорт</string>
+    <string name="action_light" translatable="false">Светлая тема</string>
+    <string name="action_settings" translatable="false">Настройки</string>
+    <string name="action_themeswith" translatable="false">Темная тема</string>
+    <string name="addmynotes" translatable="false">Добавить заметку</string>
+    <string name="app_name" translatable="false">Алко Калькулятор</string>
+    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="beer_alco_rez" translatable="false">Расчетная спиртуозность:</string>
+    <string name="beer_hop_a" translatable="false">Альфа(%)</string>
+    <string name="beer_hop_t" translatable="false">Время(мин)</string>
+    <string name="beer_hop_w" translatable="false">Вес(г)</string>
+    <string name="beer_ibu" translatable="false">Расчетная горечь по IBU</string>
+    <string name="beer_ibu_unreal" translatable="false">При такой плотности расчет невозможен</string>
+    <string name="beer_tempcorr_rez" translatable="false">Расчетные показания ареометра:</string>
+    <string name="boiling_temp" translatable="false">Температура в кубе</string>
+    <string name="bottle_mass" translatable="false">Масса тары (гр):</string>
+    <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
+    <string name="brix" translatable="false">Брикс:</string>
+    <string name="calc_boiling" translatable="false">Расчет крепости по температуре кипения</string>
+    <string name="calc_brix_plato" translatable="false">Расчет Брикс/Плато</string>
+    <string name="calc_correct_density" translatable="false">Коррекция ареометра (плотность)</string>
+    <string name="calc_correct_spirt" translatable="false">Коррекция ареометра (спирт)</string>
+    <string name="calc_density" translatable="false">Расчет крепости по плотности</string>
+    <string name="calc_drink" translatable="false">Расчет на напиток</string>
+    <string name="calc_fract" translatable="false">Дробная перегонка</string>
+    <string name="calc_heatingelement" translatable="false">Расчет ТЭНа</string>
+    <string name="calc_ibu" translatable="false">Расчет горечи по IBU</string>
+    <string name="calc_massconvert" translatable="false">перевод массы в объем</string>
+    <string name="calc_massmixing" translatable="false">Разбавление по массе</string>
+    <string name="calc_mix" translatable="false">Смешивание спиртов</string>
+    <string name="calc_speedotbor" translatable="false">Скорость отбора</string>
+    <string name="calc_sugar_braga" translatable="false">Расчет сахарной браги</string>
+    <string name="calc_suslo" translatable="false">расчет солода на сусло</string>
+    <string name="calc_temperature_mix" translatable="false">Смешивание разных температур</string>
+    <string name="calc_vinesugar" translatable="false">Сахар на винное сусло</string>
+    <string name="calc_waterdil" translatable="false">Разбавление водой</string>
+    <string name="calcs" translatable="false">Калькуляторы</string>
+    <string name="calculate_cost" translatable="false">Расчетная стоимость нагрева:</string>
+    <string name="calculate_power" translatable="false">Расчетная потребляемая мощность (Вт):</string>
+    <string name="calculate_time" translatable="false">Расчетное время на нагрев (мин):</string>
+    <string name="calibr_temp_hydro" translatable="false">Калибровочная температура (10-24):</string>
+    <string name="character_counter_content_description" translatable="false">Character limit exceeded %1$d of %2$d</string>
+    <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
+    <string name="click_long_please" translatable="false">Жми дольше! :)</string>
+    <string name="conv_to_1xxx" translatable="false">Конвертировать в уд.плотность (1.ххх)</string>
+    <string name="conv_to_brix" translatable="false">Ареоментр в Брикс/Плато</string>
+    <string name="convert_fulltemp_to_liqtemp" translatable="false">Поиск температуры жидкости 2</string>
+    <string name="convert_mlh_in_lh" translatable="false">Перевести л/мин в л/час</string>
+    <string name="density" translatable="false">Плотность:</string>
+    <string name="fab_transformation_scrim_behavior" translatable="false">android.support.design.transformation.FabTransformationScrimBehavior</string>
+    <string name="fab_transformation_sheet_behavior" translatable="false">android.support.design.transformation.FabTransformationSheetBehavior</string>
+    <string name="filename" translatable="false">Имя файла</string>
+    <string name="fin_density" translatable="false">Конечная плотность:</string>
+    <string name="fin_strong" translatable="false">Конечная крепость (%):</string>
+    <string name="final_speed" translatable="false">Скорость отбора составляет (л/мин):</string>
+    <string name="final_speed_conv" translatable="false">Скорость отбора составляет (л/час):</string>
+    <string name="final_temp_liq" translatable="false">Итоговая температура смеси</string>
+    <string name="final_time" translatable="false">Необходимое время для полного отбора (ММ:СС):</string>
+    <string name="final_time_conv" translatable="false">Необходимое время для полного отбора (ЧЧ:ММ):</string>
+    <string name="full_mass" translatable="false">Полная масса (гр):</string>
+    <string name="guid_ferments" translatable="false">Ферменты и их функции</string>
+    <string name="guid_fertmantable" translatable="false">Таблица Фертмана</string>
+    <string name="guid_hopes" translatable="false">Таблица сортов хмеля</string>
+    <string name="guid_sugarfruit" translatable="false">Таблица сахара и кислот в фруктах</string>
+    <string name="guid_waterfruits" translatable="false">Содержание воды в фруктах</string>
+    <string name="guid_yeast" translatable="false">Таблица сухих пивных дрожжей</string>
+    <string name="guides" translatable="false">Справочники</string>
+    <string name="hide_bottom_view_on_scroll_behavior" translatable="false">android.support.design.behavior.HideBottomViewOnScrollBehavior</string>
+    <string name="hop1" translatable="false">Хмель 1:</string>
+    <string name="hop2" translatable="false">Хмель 2:</string>
+    <string name="hop3" translatable="false">Хмель 3:</string>
+    <string name="hop4" translatable="false">Хмель 4:</string>
+    <string name="hop5" translatable="false">Хмель 5:</string>
+    <string name="init_density" translatable="false">Начальная плотность:</string>
+    <string name="inputfilename" translatable="false">Введите имя файла, из которого вы собираетесь импортировать данные:</string>
+    <string name="inputtemperature" translatable="false">Введите температуру продукта:</string>
+    <string name="koefSusla" translatable="false">Поправочный коэффициент сусла:</string>
+    <string name="lang_auto" translatable="false">Системный</string>
+    <string name="lang_en" translatable="false">English</string>
+    <string name="lang_ru" translatable="false">Русский</string>
+    <string name="like_vol" translatable="false">Желаемый объем (л):</string>
+    <string name="links" translatable="false">Наши ссылки</string>
+    <string name="liq_temp2" translatable="false">Необходимая температура жидкости 2</string>
+    <string name="mass_to_volume" translatable="false">Расчетный объем продукта (л):</string>
+    <string name="max_alcohol" translatable="false">Максимальная расчетная спиртуозность:</string>
+    <string name="measureRefract" translatable="false">Измерение с помощью рефрактометра</string>
+    <string name="menuaddnotes" translatable="false">Добавить</string>
+    <string name="menusavenotes" translatable="false">Сохранить</string>
+    <string name="mix_calc_srcVol" translatable="false">Объем исходного продукта (л):</string>
+    <string name="mix_calc_wtrVol" translatable="false">Объем воды для разбавления (л):</string>
+    <string name="mix_volume" translatable="false">Объем смеси (сахар+вода):</string>
+    <string name="mtrl_chip_close_icon_content_description" translatable="false">Remove %1$s</string>
+    <string name="mynotes" translatable="false">Мои заметки</string>
+    <string name="need_strong" translatable="false">Необходимая крепость (%):</string>
+    <string name="need_sugar" translatable="false">Необходимое количество сахара (кг)</string>
+    <string name="need_water" translatable="false">Необходимый объем воды (л):</string>
+    <string name="need_water_ml" translatable="false">Необходимый объем воды (мл):</string>
+    <string name="no" translatable="false">НЕТ</string>
+    <string name="no_enter_volume" translatable="false">Не введен отбираемый объем</string>
+    <string name="note_message" translatable="false">Кажется заметка пустая. Вы точно хотите её сохранить?</string>
+    <string name="note_question" translatable="false">Недостаточно данных</string>
+    <string name="note_savemsg" translatable="false">Заметка сохранена</string>
+    <string name="note_updatemsg" translatable="false">Заметка обновлена</string>
+    <string name="notes" translatable="false">Заметки</string>
+    <string name="notes_ingrid" translatable="false">Ингредиенты</string>
+    <string name="notes_name" translatable="false">Название</string>
+    <string name="notes_note" translatable="false">Заметки</string>
+    <string name="notes_zatir" translatable="false">Затирание/рецепт</string>
+    <string name="password_toggle_content_description" translatable="false">Show password</string>
+    <string name="path_password_eye" translatable="false">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
+    <string name="path_password_eye_mask_strike_through" translatable="false">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_eye_mask_visible" translatable="false">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
+    <string name="reset" translatable="false">СБРОС</string>
+    <string name="savedatatara" translatable="false">Сохранять введенное значение тары</string>
+    <string name="saveindb" translatable="false">Сохранить</string>
+    <string name="saveprice" translatable="false">Сохранять стоимость 1кВт*ч</string>
+    <string name="search_menu_title">Search</string>
+    <string name="select_action" translatable="false">Выбор действия</string>
+    <string name="semInfo_highHydromodule" translatable="false">Слишком большой гидромодуль! Убедитесь в правильности введенных данных и силе ваших дрожжей</string>
+    <string name="semInfo_highWater" translatable="false">Слишком большое количество воды!</string>
+    <string name="sem_infoRazbavka" translatable="false">Если вы думаете, что приливая спирт к воде вы получите смесь спирта и воды, то вы будете не правы. Вы получите химическое соединение — гидрат спирта, молекула которого занимает объем меньший, нежели молекула спирта и молекула воды в разъединенном состоянии.</string>
+    <string name="sem_notes_header" translatable="false">Мои заметки на всякий случай</string>
+    <string name="sem_smeshivanie_rez1" translatable="false">Крепость напитка после смешивания:</string>
+    <string name="sem_smeshivanie_rez2" translatable="false">Общий объем продукта (л):</string>
+    <string name="spirt_1" translatable="false">Спирт-сырец (л):</string>
+    <string name="spirt_cube" translatable="false">Спирт в кубе:</string>
+    <string name="spirt_heads_vol" translatable="false">Доля голов (%):</string>
+    <string name="spirt_jet" translatable="false">Спирт в струе:</string>
+    <string name="spirt_mass" translatable="false">Масса спирта (гр):</string>
+    <string name="spirt_result" translatable="false">Результаты расчета:</string>
+    <string name="spirt_result_fullspirt" translatable="false">Общий объем спирта:</string>
+    <string name="spirt_result_heads" translatable="false">Голов (л):</string>
+    <string name="spirt_result_hvost" translatable="false">Хвостов (л):</string>
+    <string name="spirt_result_prod" translatable="false">Тело (л):</string>
+    <string name="spirt_strong_1" translatable="false">Крепость сырца (%):</string>
+    <string name="spirt_strong_out" translatable="false">Крепость на выходе (%):</string>
+    <string name="spirt_tails_vol" translatable="false">Доля хвостов (%):</string>
+    <string name="start" translatable="false">СТАРТ</string>
+    <string name="start_strong" translatable="false">Начальная крепость (%):</string>
+    <string name="start_sugar" translatable="false">Начальная сахаристость сусла (%)</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stop" translatable="false">СТОП</string>
+    <string name="strong" translatable="false">Крепость (%):</string>
+    <string name="strong_liquid_1" translatable="false">Крепость жидкости 1 (%):</string>
+    <string name="strong_liquid_2" translatable="false">Крепость жидкости 2 (%):</string>
+    <string name="sugar_weight" translatable="false">Вес сахара(кг):</string>
+    <string name="teh_Power" translatable="false">Номинальная мощность (Вт):</string>
+    <string name="teh_U" translatable="false">Напряжение (V):</string>
+    <string name="teh_curr" translatable="false">Сила тока (A):</string>
+    <string name="teh_heating" translatable="false">Нагрев жидкости от-до (С)</string>
+    <string name="teh_price" translatable="false">Стоимость 1 кВт*ч</string>
+    <string name="teh_resistance" translatable="false">Сопротивление (Ом):</string>
+    <string name="teh_volume" translatable="false">Нагреваемый объем (л):</string>
+    <string name="temp_0_70" translatable="false">Температура (0-70):</string>
+    <string name="temp_liquid_1" translatable="false">Температура жидкости 1</string>
+    <string name="temp_liquid_2" translatable="false">Температура жидкости 2</string>
+    <string name="temp_liquid_rezult" translatable="false">Итоговая температура смеси:</string>
+    <string name="temp_product" translatable="false">Температура продукта:</string>
+    <string name="temp_product_rez" translatable="false">Фактическое значение:</string>
+    <string name="tempcorrect" translatable="false">t-коррекция</string>
+    <string name="title_activity_main_scrol" translatable="false">Алко Калькулятор</string>
+    <string name="toast_loaddata" translatable="false">Данные калькулятора загружены</string>
+    <string name="toast_savedata" translatable="false">Данные калькулятора сохранены</string>
+    <string name="ud_density" translatable="false">Удельный вес:</string>
+    <string name="val_extract" translatable="false">Экстрактивность солода(%):</string>
+    <string name="val_hydrometer" translatable="false">Показания ареометра:</string>
+    <string name="val_nachplot" translatable="false">Необходимая НП сусла(%):</string>
+    <string name="val_solod" translatable="false">Расчетный вес солода(кг):</string>
+    <string name="val_suslo_vol" translatable="false">Необходимый объем сусла(л):</string>
+    <string name="vine_finish_sugar" translatable="false">Конечная сахаристость сусла (%)</string>
+    <string name="vintosug" translatable="false">Крепость в сахаристость</string>
+    <string name="vol_liquid_1" translatable="false">Объем жидкости 1 (л):</string>
+    <string name="vol_liquid_2" translatable="false">Объем жидкости 2 (л):</string>
+    <string name="vol_spirt_l" translatable="false">Объем продукта (л):</string>
+    <string name="volume" translatable="false">Объем (л):</string>
+    <string name="volume_heads" translatable="false">Полный объем продукта (мл):</string>
+    <string name="volume_ml" translatable="false">Замеряемый объем (мл):</string>
+    <string name="wantcorrect" translatable="false">Хотите скорректировать спиртуозность продукта по температуре?</string>
+    <string name="water_modul" translatable="false">Гидромодуль:</string>
+    <string name="water_need" translatable="false">Необходимое количество воды(л):</string>
+    <string name="yes" translatable="false">ДА</string>
+</resources>
