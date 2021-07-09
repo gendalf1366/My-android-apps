@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="calculator">
+        <item>Расчет сахарной браги</item>
+        <item>Расчет солода на сусло</item>
+        <item>Дробная перегонка</item>
+        <item>Расчет крепости по температуре кипения</item>
+        <item>Разбавление водой</item>
+        <item>Разбавление по массе</item>
+        <item>Расчет на напиток</item>
+        <item>Смешивание спиртов</item>
+        <item>Расчет Брикс/Плато</item>
+        <item>Расчет крепости по плотности</item>
+        <item>Коррекция ареометра (спирт)</item>
+        <item>Коррекция ареометра (плотность)</item>
+        <item>Расчет горечи по IBU</item>
+        <item>Смешивание разных температур</item>
+        <item>Сахар на винное сусло</item>
+        <item>Скорость отбора</item>
+    </string-array>
+    <string-array name="handbook">
+        <item>Таблица сахара и кислот в фруктах</item>
+        <item>Таблица сортов хмеля</item>
+        <item>Ферменты и их функции</item>
+        <item>Таблица сухих пивных дрожжей</item>
+        <item>Таблица Фермана</item>
+        <item>Содержание воды в фруктах</item>
+    </string-array>
+
+    <string-array name="heads_percents">
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array>
+    <string-array name="tails_percents">
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+    </string-array>
+
+    <string-array name="time_minutes">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>60</item>
+        <item>80</item>
+        <item>90</item>
+        <item>120</item>
+    </string-array>
+</resources>

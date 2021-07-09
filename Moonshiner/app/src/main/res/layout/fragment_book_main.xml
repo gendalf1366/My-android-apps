@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main.BookMainFragment"
+    android:background="@color/purple_500">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints,WebViewLayout">
+
+        <Button
+            android:id="@+id/bookFruitTable"
+            android:layout_width="407dp"
+            android:layout_height="52dp"
+            android:text="@string/guid_sugarfruit"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Button
+            android:id="@+id/bookHopTable"
+            android:layout_width="407dp"
+            android:layout_height="52dp"
+            android:text="@string/guid_hopes"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="156dp"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/bookFermentsBrew"
+            android:layout_width="407dp"
+            android:layout_height="52dp"
+            android:text="@string/guid_ferments"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="85dp"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/bookYeastTable"
+            android:layout_width="407dp"
+            android:layout_height="52dp"
+            android:text="@string/guid_yeast"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="85dp"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/bookFertman"
+            android:layout_width="407dp"
+            android:layout_height="52dp"
+            android:text="@string/guid_fertmantable"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="85dp"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/bookFruitwater"
+            android:layout_width="407dp"
+            android:layout_height="52dp"
+            android:text="@string/guid_waterfruits"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="85dp"
+            tools:ignore="MissingConstraints" />
+
+        <WebView
+            android:id="@+id/webView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
