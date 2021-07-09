@@ -3,8 +3,6 @@
 Kapp/src/main/java/ru/gendalf13666/moonshiner/Details/TemperatureFragment.kt,1\7\17b52db30d5c8e81fa1ad226d063111ea2bb2ac0
 z
 Japp/src/main/java/ru/gendalf13666/moonshiner/Details/SpeedotborFragment.kt,3\2\32c9638d083c41863b09950b4f35a792393c4d2a
-y
-Iapp/src/main/java/ru/gendalf13666/moonshiner/Details/VineSugarFragment.kt,a\e\aebfdce58daa1cee9bc62425228a172fb946b46e
 x
 Happ/src/main/java/ru/gendalf13666/moonshiner/Details/BeerAlcoFragment.kt,5\7\574acd52ace90287e7b738a4368c210aec5f93a1
 {

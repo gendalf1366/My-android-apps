@@ -36,93 +36,40 @@ class BookMainFragment : Fragment(), View.OnClickListener {
     override fun onClick(view: View?) {
         when (view?.id) {
             R.id.bookFruitTable -> {
-                val webView: WebView? = getView()?.findViewById(R.id.webView)
-
                 webView?.loadUrl("file:///android_asset/yeasttable.html")
-                if (webView != null) {
-                    webView.webViewClient = object : WebViewClient() {
-                        override fun shouldOverrideUrlLoading(
-                            view: WebView,
-                            request: WebResourceRequest
-                        ): Boolean {
-                            return super.shouldOverrideUrlLoading(view, request)
-                        }
-                    }
-                }
+                webViewClient()
             }
             R.id.bookHopTable -> {
-                val webView: WebView? = getView()?.findViewById(R.id.webView)
-
                 webView?.loadUrl("file:///android_asset/fruittable.html")
-                if (webView != null) {
-                    webView.webViewClient = object : WebViewClient() {
-                        override fun shouldOverrideUrlLoading(
-                            view: WebView,
-                            request: WebResourceRequest
-                        ): Boolean {
-                            return super.shouldOverrideUrlLoading(view, request)
-                        }
-                    }
-                }
+                webViewClient()
             }
             R.id.bookFermentsBrew -> {
-                val webView: WebView? = getView()?.findViewById(R.id.webView)
-
                 webView?.loadUrl("file:///android_asset/hoptable.html")
-                if (webView != null) {
-                    webView.webViewClient = object : WebViewClient() {
-                        override fun shouldOverrideUrlLoading(
-                            view: WebView,
-                            request: WebResourceRequest
-                        ): Boolean {
-                            return super.shouldOverrideUrlLoading(view, request)
-                        }
-                    }
-                }
+                webViewClient()
             }
             R.id.bookYeastTable -> {
-                val webView: WebView? = getView()?.findViewById(R.id.webView)
-
                 webView?.loadUrl("file:///android_asset/ferments_brew.html")
-                if (webView != null) {
-                    webView.webViewClient = object : WebViewClient() {
-                        override fun shouldOverrideUrlLoading(
-                            view: WebView,
-                            request: WebResourceRequest
-                        ): Boolean {
-                            return super.shouldOverrideUrlLoading(view, request)
-                        }
-                    }
-                }
+                webViewClient()
             }
             R.id.bookFertman -> {
-                val webView: WebView? = getView()?.findViewById(R.id.webView)
-
                 webView?.loadUrl("file:///android_asset/fertman.html")
-                if (webView != null) {
-                    webView.webViewClient = object : WebViewClient() {
-                        override fun shouldOverrideUrlLoading(
-                            view: WebView,
-                            request: WebResourceRequest
-                        ): Boolean {
-                            return super.shouldOverrideUrlLoading(view, request)
-                        }
-                    }
-                }
+                webViewClient()
             }
             R.id.bookFruitwater -> {
-                val webView: WebView? = getView()?.findViewById(R.id.webView)
-
                 webView?.loadUrl("file:///android_asset/fruitwater.html")
-                if (webView != null) {
-                    webView.webViewClient = object : WebViewClient() {
-                        override fun shouldOverrideUrlLoading(
-                            view: WebView,
-                            request: WebResourceRequest
-                        ): Boolean {
-                            return super.shouldOverrideUrlLoading(view, request)
-                        }
-                    }
+                webViewClient()
+            }
+        }
+    }
+
+    fun webViewClient() {
+        if (webView != null) {
+            webView!!.webViewClient = object : WebViewClient() {
+                override fun shouldOverrideUrlLoading(
+                    view: WebView,
+                    request: WebResourceRequest
+                ): Boolean {
+                    return super.shouldOverrideUrlLoading(view, request)
                 }
             }
         }

@@ -18,14 +18,6 @@
         <item>Сахар на винное сусло</item>
         <item>Скорость отбора</item>
     </string-array>
-    <string-array name="handbook">
-        <item>Таблица сахара и кислот в фруктах</item>
-        <item>Таблица сортов хмеля</item>
-        <item>Ферменты и их функции</item>
-        <item>Таблица сухих пивных дрожжей</item>
-        <item>Таблица Фермана</item>
-        <item>Содержание воды в фруктах</item>
-    </string-array>
 
     <string-array name="heads_percents">
         <item>5</item>
